@@ -15,7 +15,7 @@ DB Script
 -------------------
 Script and Entity diagram is available 'src/main/resources/db/' folder. 
 
-You may run the script.sql after the application is running for the first time.
+Running the script is optional but you may run the script after the application is running for the first time.
 1. Open Browser
 2. Enter http://localhost:8080/api/v1/h2-console
 3. Enter 'jdbc:h2:mem:contact_db' (without quote) to JDBC URL field
