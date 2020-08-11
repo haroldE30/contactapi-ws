@@ -1,0 +1,12 @@
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/entity/Communication.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/exception/ResourceNotFoundException.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/exception/GlobalExceptionHandler.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/entity/Address.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/controller/IdentificationController.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/entity/Identification.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/exception/ErrorDetails.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/exception/TransactionProcessException.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/repository/IdentificationRepository.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/service/IdentificationImpl.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/service/IdentificationService.java
+/Users/harold/Documents/development/contactapi/src/main/java/com/ms3/contactapi/ContactapiApplication.java
