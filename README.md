@@ -1,2 +1,2 @@
-# contactapi
-Basic CRUD for Contacts Application
+# contactapi-ws
+Web Service for Contact Application
