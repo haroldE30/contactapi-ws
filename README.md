@@ -22,7 +22,7 @@ Running the script is optional but if you want initial data, you can run the ins
 4. Username is 'sa' (without quote)
 5. Leave password blank
 6. Click Connect button
-7. Copy and paste the insert statements in the textarea
+7. Copy and paste the insert statements into the textarea
 8. Click Run button
 
 Running the application
