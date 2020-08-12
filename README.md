@@ -20,9 +20,10 @@ Running the script is optional but if you want initial data, you can run the ins
 2. Enter http://localhost:8080/api/v1/h2-console
 3. Enter 'jdbc:h2:mem:contact_db' (without quote) to JDBC URL field
 4. Username is 'sa' (without quote)
-5. Click Connect button
-6. Copy and paste the insert statements in the textarea
-7. Click Run button
+5. Leave password blank
+6. Click Connect button
+7. Copy and paste the insert statements in the textarea
+8. Click Run button
 
 Running the application
 -------------------
