@@ -123,7 +123,9 @@ public class ContactServiceImpl implements ContactService {
 			Optional<Address> optional = contact.getAddresses().stream()
 					.filter(a -> dto.getId() != null && a.getId().equals(dto.getId())).findFirst();
 			if (optional.isPresent()) {
-				existing.add(optional.get());
+				Address address = optional.get();
+				CopyUtil.copyNonNullProperties(dto, address);
+				existing.add(address);
 			}
 		});
 		
@@ -136,14 +138,7 @@ public class ContactServiceImpl implements ContactService {
 				Address address = new Address();
 				CopyUtil.copyNonNullProperties(dto, address);
 				contact.addAddress(address);
-			} else {
-				Optional<Address> optional = contact.getAddresses().stream()
-						.filter(a -> a.getId().equals(dto.getId())).findFirst();
-				if (optional.isPresent()) {
-					Address address2 = optional.get();
-					CopyUtil.copyNonNullProperties(dto, address2);
-				}
-			}
+			} 
 		});
 	}
 
@@ -161,7 +156,9 @@ public class ContactServiceImpl implements ContactService {
 			Optional<Communication> optional = contact.getCommunications().stream()
 					.filter(c -> dto.getId() != null && c.getId().equals(dto.getId())).findFirst();
 			if (optional.isPresent()) {
-				existing.add(optional.get());
+				Communication communication = optional.get();
+				CopyUtil.copyNonNullProperties(dto, communication);
+				existing.add(communication);
 			}
 		});
 		
@@ -174,14 +171,7 @@ public class ContactServiceImpl implements ContactService {
 				Communication communication = new Communication();
 				CopyUtil.copyNonNullProperties(dto, communication);
 				contact.addCommunication(communication);
-			} else {
-				Optional<Communication> optional = contact.getCommunications().stream()
-						.filter(c -> c.getId().equals(dto.getId())).findFirst();
-				if (optional.isPresent()) {
-					Communication communication = optional.get();
-					CopyUtil.copyNonNullProperties(dto, communication);
-				}
-			}
+			} 
 		});
 	}
 
