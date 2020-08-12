@@ -30,4 +30,4 @@ Running the application
 * Before running the applicaton make sure you have setup your environment correctly.
 
 1. Open terminal and navigate to 'contactapi-ws' directory
-2. type command: mvn spring-boot:run
+2. Type command: mvn spring-boot:run
