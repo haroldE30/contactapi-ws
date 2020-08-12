@@ -15,13 +15,13 @@ DB Script
 -------------------
 Script and Entity diagram is available 'src/main/resources/db/' folder. 
 
-Running the script is optional but you may run the script after the application is running for the first time.
+Running the script is optional but if you want initial data, you can run the insert statements of the script after the application is running for the first time.
 1. Open Browser
 2. Enter http://localhost:8080/api/v1/h2-console
 3. Enter 'jdbc:h2:mem:contact_db' (without quote) to JDBC URL field
 4. Username is 'sa' (without quote)
 5. Click Connect button
-6. Copy and paste the script in the textarea
+6. Copy and paste the insert statements in the textarea
 7. Click Run button
 
 Running the application
